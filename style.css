@@ -1,0 +1,1047 @@
+body {
+  overflow-x: hidden;
+}
+
+img {
+  height: 100%;
+  max-width: auto;
+  object-fit: cover;
+}
+h1 {
+  font-family: "Josefin Slab", serif;
+  font-size: 8rem;
+}
+h4 {
+  font-family: "Josefin Slab", serif;
+}
+h5 {
+  font-family: "Josefin Slab", serif;
+}
+
+/* header */
+.head {
+  background: #2e302d;
+  height: 110vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  height: 5rem;
+}
+.nav-item {
+  font-family: "Josefin Slab", serif;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+.hero {
+  font-family: "Italiana", serif;
+}
+.true {
+  font-size: 9rem;
+  font-family: "Italiana", serif;
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+
+.true::after {
+  content: "";
+  background: #8f9e80;
+  height: 8rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-radius: 4rem;
+  width: 20rem;
+  position: absolute;
+}
+
+.hello {
+  font-size: 16rem;
+
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+.hello::after {
+  content: "";
+  background: #e3b675;
+  height: 28rem;
+
+  border-radius: 8.2rem;
+  width: 18rem;
+  margin-left: 10rem;
+  position: absolute;
+}
+.view {
+  position: absolute;
+  top: 90%;
+  left: 16%;
+}
+.view a {
+  font-size: 1.5rem;
+  color: white;
+}
+.hero-img {
+  position: absolute;
+  height: 35rem;
+  right: 0%;
+}
+
+/* mai-section */
+
+.div-1 {
+  height: 250px;
+  width: 100vw;
+  background: url(img/festive.jpg);
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-position-y: 56%;
+  background-size: cover;
+  color: white;
+  overflow: hidden;
+}
+.div-1 h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  text-shadow: 1px 1px black;
+}
+.div-1 p {
+  font-weight: 500;
+  text-shadow: 1px 1px black;
+}
+
+.div-1 .btn {
+  background: #8f9e80;
+  font-weight: 500;
+  border-radius: 4rem;
+}
+/* items  */
+.items h1 {
+  font-size: 3.5rem;
+}
+
+/* card  */
+
+.card-img-top {
+  height: 18rem;
+  object-fit: cover;
+}
+.card-colo {
+  background: #f5f5f5;
+}
+.card-title {
+  text-decoration: underline #e3b675;
+}
+.card .add-cart {
+  background: #8f9e80;
+
+  border-radius: 4rem;
+}
+
+.card .buy-now {
+  background: #e3b675;
+
+  border-radius: 4rem;
+}
+.card-text {
+  text-decoration: underline #8f9e80;
+}
+.trend {
+  background-color: #2e302d;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.ladki {
+  background: url(img/kahari-king-NUEWYsqzHxM-unsplash.jpg);
+  background-position-y: 38%;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: multiply;
+  position: absolute;
+  clip-path: ellipse(58% 66% at 53% 26%);
+}
+.circle {
+  height: 66vh;
+  border-radius: 18rem;
+  width: 32vw;
+  border: 12px solid #8f9e80;
+  background: url(img/pordan-krisztian-YA9Lxpxk9rA-unsplash.jpg);
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: multiply;
+  position: absolute;
+  background-size: cover;
+  background-position-y: 35%;
+  background-position-x: 33%;
+  right: 5%;
+  top: 25%;
+}
+.trend-text {
+  color: white;
+  position: absolute;
+  text-align: center;
+
+  top: 48%;
+  left: 25%;
+}
+.trend-text h1 {
+  text-shadow: 1px 1px black;
+  font-size: 7rem;
+
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+.trend-text p {
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+.trend-text .btn {
+  background: #e3b675;
+  font-weight: 500;
+
+  border-radius: 4rem;
+}
+.information {
+  background: #f5f5f5;
+}
+.information h4 {
+  text-decoration: underline #8f9e80;
+  font-weight: 700;
+}
+
+#heading-2 {
+  text-decoration: underline #e3b675;
+}
+/* footer */
+.foot {
+  background-color: #2e302d;
+}
+.foot-head a {
+  color: white;
+  text-decoration: none;
+}
+.foot-head p a {
+  color: #f5f5f5;
+  font-weight: 500;
+  text-decoration: none;
+}
+.foot-social i {
+  padding: 1.8rem;
+}
+.logo1 {
+  height: 7rem;
+}
+
+/* cart modal bootstarap   */
+
+.view {
+  position: absolute;
+  top: 90%;
+  left: 16%;
+}
+.view a {
+  font-size: 1.5rem;
+  color: white;
+}
+.hero-img {
+  position: absolute;
+  height: 35rem;
+  right: 0%;
+}
+.cart-img {
+  height: 20vh;
+}
+.cart1 h1 {
+  font-size: 2rem;
+}
+.cart1 .quantity {
+  width: 20px;
+  background: #8f9e80;
+}
+.cart .price {
+  padding-left: 100px;
+}
+
+ table{
+  
+ }
+th{
+  padding: 1rem;
+  padding-left: 2rem;
+  font-size: 1.8rem;
+  font-family: "Josefin Slab", serif;
+}
+td{
+  padding: 1rem;
+  padding-left: 2rem;
+  font-size: 1.8rem;
+  font-family: "Josefin Slab", serif;
+}
+
+th a{
+   color:#e3b675;
+   text-decoration: none;
+}
+th a:hover{
+  color: red;
+}
+.modal-body{
+  background: #D9D9D9;
+
+}
+.modal-header{
+  background: #2e302d;
+  color: #ffff;
+}
+.modal-wrapper .modal .modal-dialog .modal-content .modal-footer{
+  background: #2e302d;
+  color: white;
+}
+.modal-wrapper .modal .modal-dialog .modal-content .modal-footer .btn{
+  background: #8f9e80;
+}
+
+
+
+
+
+/* media */
+
+@media screen and (max-width: 1400px) {
+  .hero-img {
+    bottom: 0%;
+  }
+
+  .head {
+    background: #2e302d;
+    height: 700px;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+  }
+  .circle {
+    height: 500px;
+    border-radius: 20rem;
+    width: 500px;
+    right: 5%;
+    top: 25%;
+  }
+
+  .trend {
+    height: 700px;
+    width: 100vw;
+  }
+  .ladki {
+    height: 700px;
+    width: 100vw;
+  }
+  .card .add-cart {
+    background: #8f9e80;
+    font-size: 0.8rem;
+    border-radius: 4rem;
+  }
+
+  .card .buy-now {
+    background: #e3b675;
+    font-size: 0.8rem;
+    border-radius: 4rem;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .hello {
+    font-size: 17rem;
+
+    top: 30%;
+    left: 10%;
+  }
+  .hero-img {
+    bottom: 0%;
+    height: 60vh;
+  }
+
+  .head {
+    height: 70vh;
+  }
+  .hello::after {
+    height: 28rem;
+
+    width: 18rem;
+    margin-left: 4rem;
+  }
+  .true {
+    font-size: 10rem;
+
+    top: 15%;
+    left: 5%;
+  }
+
+  .circle {
+    height: 40vh;
+    border-radius: 20rem;
+    width: 38vw;
+    right: 5%;
+
+    top: 36%;
+  }
+  .trend-text {
+    top: 48%;
+    left: 21%;
+  }
+  .trend-text h1 {
+    text-shadow: 1px 1px black;
+    font-size: 6rem;
+
+    font-weight: 600;
+    line-height: 3.5rem;
+  }
+  .trend-text p {
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 1px 1px black;
+  }
+}
+
+@media screen and (max-width: 1002px) {
+  .head {
+    height: 75vh;
+  }
+
+  .navbar {
+    z-index: 1;
+    background: #2e302d;
+  }
+  .hello {
+    font-size: 17rem;
+
+    top: 30%;
+    left: 10%;
+  }
+  .hello::after {
+    height: 28rem;
+
+    width: 18rem;
+    margin-left: 4rem;
+  }
+  .true {
+    font-size: 10rem;
+
+    top: 15%;
+    left: 5%;
+  }
+  .circle {
+    height: 40vh;
+    border-radius: 20rem;
+    width: 42vw;
+    right: 5%;
+
+    top: 38%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .hello {
+    font-size: 14rem;
+
+    top: 35%;
+    left: 10%;
+  }
+  .hello::after {
+    height: 28rem;
+
+    width: 18rem;
+    margin-left: 4rem;
+  }
+  .true {
+    font-size: 8rem;
+
+    top: 18%;
+    left: 5%;
+  }
+  .circle {
+    height: 35vh;
+    border-radius: 20rem;
+    width: 40vw;
+    right: 5%;
+
+    top: 45%;
+  }
+  .trend-text {
+    color: white;
+    position: absolute;
+    text-align: center;
+
+    top: 48%;
+    left: 25%;
+  }
+  .trend-text h1 {
+    text-shadow: 1px 1px black;
+    font-size: 5rem;
+
+    font-weight: 600;
+    line-height: 3.5rem;
+  }
+  .trend-text p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 1px 1px black;
+  }
+}
+@media screen and (max-width: 874px) {
+  .head {
+    height: 75vh;
+  }
+  .hero-img {
+    height: 60vh;
+    bottom: 0%;
+    right: 0%;
+  }
+  .hello {
+    font-size: 12rem;
+
+    top: 35%;
+    left: 10%;
+  }
+  .hello::after {
+    height: 25rem;
+
+    width: 15rem;
+    margin-left: 4rem;
+  }
+  .true {
+    font-size: 6rem;
+
+    top: 20%;
+    left: 5%;
+  }
+  .true::after {
+    content: "";
+    background: #8f9e80;
+    height: 6rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 4rem;
+    width: 18rem;
+    position: absolute;
+  }
+  .circle {
+    height: 36vh;
+    border-radius: 20rem;
+    width: 42vw;
+    right: 5%;
+
+    top: 43%;
+  }
+  .trend-text {
+    color: white;
+    position: absolute;
+    text-align: center;
+
+    top: 48%;
+    left: 28%;
+  }
+  .trend-text h1 {
+    text-shadow: 1px 1px black;
+    font-size: 4rem;
+
+    font-weight: 600;
+    line-height: 3.5rem;
+  }
+  .trend-text p {
+    font-size: 0.6rem;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 1px 1px black;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .hero-img {
+    position: absolute;
+    height: 55vh;
+    bottom: 0%;
+    right: 0%;
+  }
+  .head {
+    height: 70vh;
+  }
+  .hello {
+    font-size: 10rem;
+
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+  }
+  .hello::after {
+    content: "";
+    background: #e3b675;
+    height: 20rem;
+
+    border-radius: 8.2rem;
+    width: 12rem;
+    margin-left: 4rem;
+    position: absolute;
+  }
+  .true {
+    font-size: 6rem;
+    font-family: "Italiana", serif;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+  }
+  .true::after {
+    content: "";
+    background: #8f9e80;
+    height: 6rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 4rem;
+    width: 15rem;
+    position: absolute;
+  }
+  .div-1 h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 1px 1px black;
+  }
+  .div-1 p {
+    font-weight: 500;
+    text-shadow: 1px 1px black;
+  }
+
+  .div-1 .btn {
+    background: #8f9e80;
+    font-weight: 500;
+    border-radius: 3rem;
+  }
+  .circle {
+    height: 33vh;
+    border-radius: 20rem;
+    width: 43vw;
+    right: 5%;
+
+    top: 45%;
+  }
+  .card .add-cart {
+    background: #8f9e80;
+    font-size: 0.6rem;
+    width: 5rem;
+    border-radius: 4rem;
+  }
+
+  .card .buy-now {
+    background: #e3b675;
+    font-size: 0.6rem;
+    width: 5rem;
+    border-radius: 4rem;
+  }
+  .trend-text {
+    top: 48%;
+    left: 18%;
+  }
+}
+@media screen and (max-width: 627px) {
+  .head {
+    background: #2e302d;
+    height: 60vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+  }
+  .view a {
+    font-size: 1rem;
+    color: white;
+  }
+  .hero-img {
+    position: absolute;
+    height: 20rem;
+    bottom: 0%;
+    right: 0%;
+  }
+  .hello {
+    font-size: 9rem;
+
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+  }
+  .hello::after {
+    content: "";
+    background: #e3b675;
+    height: 15rem;
+
+    border-radius: 8.2rem;
+    width: 10rem;
+    margin-left: 4rem;
+    position: absolute;
+  }
+  .true {
+    font-size: 6rem;
+    font-family: "Italiana", serif;
+    color: white;
+    position: absolute;
+    top: 23%;
+    left: 5%;
+  }
+  .true::after {
+    content: "";
+    background: #8f9e80;
+    height: 4rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 4rem;
+    width: 12rem;
+    position: absolute;
+  }
+  .circle {
+    height: 26vh;
+    border-radius: 20rem;
+    width: 40vw;
+    right: 5%;
+
+    top: 56%;
+  }
+  .logo1 {
+    height: 5rem;
+  }
+  .trend-text {
+    top: 48%;
+    left: 16%;
+  }
+}
+/* @media  screen and (max-width:549px) {
+
+            .head{
+                background: #2E302D;
+                height: 60vh;
+                
+            
+            }
+            
+            .hero-img{
+                height: 15rem;
+               right: 5%;
+                
+                
+            }
+            .hello {
+                font-size: 7rem; 
+                
+            
+            top: 50%;
+            left: 10%;
+            
+            }
+            .hello::after{
+                content: "";
+                background:#E3B675;
+                height:12rem;
+                
+                
+                border-radius: 8.2rem;
+                width: 8rem;
+                margin-left: 4rem;
+                position: absolute;
+                }
+            .true {
+                font-size: 4rem; 
+                font-family: 'Italiana', serif;
+            color: white;
+            position: absolute;
+            top: 35%;
+            left: 5%;
+            }
+            .true::after{
+                content: "";
+                background:#8F9E80;
+                height:3rem;
+                margin-top: 2rem;
+                margin-left: 2rem;
+                border-radius: 4rem;
+                width: 9rem;
+                position: absolute;
+                }
+            
+        } */
+@media screen and (max-width: 549px) {
+  .hero-img {
+    height: 30vh;
+    width: 2rem;
+    right: 30%;
+  }
+  .head {
+    height: 55vh;
+  }
+  .hello {
+    font-size: 6rem;
+
+    top: 50%;
+    left: 10%;
+  }
+  .hello::after {
+    content: "";
+    background: #e3b675;
+    height: 8rem;
+
+    border-radius: 8.2rem;
+    width: 5rem;
+    margin-left: 1rem;
+    position: absolute;
+  }
+  .true {
+    font-size: 4rem;
+    font-family: "Italiana", serif;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+  }
+  .true::after {
+    content: "";
+    background: #8f9e80;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    border-radius: 4rem;
+    width: 6rem;
+    position: absolute;
+  }
+  .circle {
+    height: 22vh;
+    border-radius: 20rem;
+    width: 46vw;
+    right: 5%;
+
+    top: 62%;
+  }
+  .card .add-cart {
+    background: #8f9e80;
+    font-size: 1rem;
+    width: 7rem;
+    border-radius: 4rem;
+  }
+
+  .card .buy-now {
+    background: #e3b675;
+    font-size: 1rem;
+    width: 7rem;
+    border-radius: 4rem;
+  }
+  .trend-text {
+    top: 48%;
+    left: 30%;
+  }
+  .trend-text h1 {
+    text-shadow: 1px 1px black;
+    font-size: 3.2rem;
+
+    font-weight: 600;
+    width: 10rem;
+    line-height: 2rem;
+  }
+  .trend-text p {
+    font-size: 0.4rem;
+    width: 10rem;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 1px 1px black;
+  }
+  .div-1 h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 1px 1px black;
+  }
+  .div-1 p {
+    font-size: 1rem;
+    font-weight: 500;
+    text-shadow: 1px 1px black;
+  }
+
+  .div-1 .btn {
+    background: #8f9e80;
+    font-weight: 500;
+    border-radius: 4rem;
+  }
+  .nav-item {
+    font-family: "Josefin Slab", serif;
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .card .add-cart {
+    background: #8f9e80;
+   font-size: 0.8rem;
+   width:6rem;
+    border-radius: 4rem;
+  }
+  .card .buy-now {
+    background: #e3b675;
+    font-size: 0.8rem;
+    border-radius: 4rem;
+    width:6rem;
+  }
+ 
+}
+@media screen and (min-width: 1400px) {
+  .hero-img {
+    bottom: 0%;
+    height: 40rem;
+  }
+  .head {
+    height: 95vh;
+  }
+  .true {
+    font-size: 13rem;
+    font-family: "Italiana", serif;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
+
+  .true::after {
+    content: "";
+    background: #8f9e80;
+    height: 8rem;
+
+    border-radius: 4rem;
+    width: 20rem;
+    position: absolute;
+    top: 30%;
+  }
+
+  .hello {
+    font-size: 22rem;
+
+    color: white;
+    position: absolute;
+    top: 36%;
+    left: 25%;
+  }
+  .hello::after {
+    content: "";
+    background: #e3b675;
+    height: 30rem;
+
+    border-radius: 8.2rem;
+    width: 20rem;
+    margin-left: 3rem;
+    position: absolute;
+  }
+  .view a {
+    font-size: 2rem;
+    color: white;
+  }
+  .circle {
+    height: 66vh;
+    border-radius: 18rem;
+    width: 40vw;
+
+    right: 5%;
+    top: 25%;
+  }
+  .trend-text {
+    top: 48%;
+    left: 21%;
+  }
+  .trend-text h1 {
+    text-shadow: 1px 1px black;
+    font-size: 9rem;
+
+    font-weight: 600;
+    line-height: 5rem;
+  }
+  .trend-text p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 1px 1px black;
+  }
+}
+@media screen and (min-width: 1798px) {
+  .hero-img {
+    bottom: 0%;
+    height: 50rem;
+  }
+  .head {
+    height: 100vh;
+  }
+  .true {
+    font-size: 14rem;
+    font-family: "Italiana", serif;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+  }
+
+  .true::after {
+    content: "";
+    background: #8f9e80;
+    height: 8rem;
+
+    border-radius: 4rem;
+    width: 20rem;
+    position: absolute;
+    top: 30%;
+  }
+
+  .hello {
+    font-size: 23rem;
+
+    color: white;
+    position: absolute;
+    top: 36%;
+    left: 38%;
+  }
+  .hello::after {
+    content: "";
+    background: #e3b675;
+    height: 30rem;
+
+    border-radius: 8.2rem;
+    width: 20rem;
+    margin-left: 3rem;
+    position: absolute;
+  }
+  .view a {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .circle {
+    height: 65vh;
+    border-radius: 18rem;
+    width: 34vw;
+
+    right: 5%;
+    top: 25%;
+  }
+  .trend-text {
+    top: 48%;
+    left: 21%;
+  }
+  .trend-text h1 {
+    text-shadow: 1px 1px black;
+    font-size: 11rem;
+
+    font-weight: 600;
+    line-height: 6rem;
+  }
+  .trend-text p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 1px 1px black;
+  }
+}
